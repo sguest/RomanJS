@@ -80,6 +80,15 @@ roman.toRoman(8, {forms: true}).toLowerCase();    //ⅴⅰⅰⅰ
 roman.toRoman(8, {combined: true}).toLowerCase(); //ⅷ
 ```
 
+**Environment/Browser support**
+
+The library has no dependencies and should work across a variety of environments (including Node) and all modern browsers.
+
+The library does make use of `Array#indexOf` and some old browsers (such as IE8 and below) do not support this method,
+therefore such browsers will need a polyfill, which is not part of this library. 
+[MDN](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf) has an
+example polyfill for this function.
+
 **License**
 
 [MIT License] (http://opensource.org/licenses/MIT)
