@@ -1,0 +1,22 @@
+{
+  "name": "@sguest/roman-js",
+  "version": "1.0.1",
+  "description": "Roman numeral parsing and generation utilities",
+  "main": "roman.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sguest/RomanJS.git"
+  },
+  "keywords": [],
+  "author": "Spencer Guest",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sguest/RomanJS/issues"
+  },
+  "homepage": "https://github.com/sguest/RomanJS#readme",
+  "files": [
+    "roman.js"
+  ]
+}

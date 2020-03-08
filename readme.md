@@ -5,7 +5,9 @@ Javascript roman numeral library with robust unicode support.
 
 **Usage**
 
-Download and use [roman.js](https://github.com/sguest/RomanJS/blob/master/roman.js)
+Recommended: Install `@sguest/roman-js` from npm
+
+Alternative: Download and use [roman.js](https://github.com/sguest/RomanJS/blob/master/roman.js)
 
 A global object `roman` will be created with functions `toRoman` and `parseRoman`.
 
